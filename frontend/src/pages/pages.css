@@ -1,0 +1,264 @@
+#home{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+    margin-top: -50px;
+}
+
+#home  .container h1{
+    font-size: 47px;
+    font-weight: 600;
+    color: #416dcc;
+    font-family: 'Poppins', sans-serif;
+}
+#home  .container  p{
+    font-size: 17px;
+   font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home  .container button{
+    padding: 10px 30px;
+    border: 1px solid #416dcc;
+    background-color: #416dcc;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+    animation: shake 5.5s infinite;
+}
+#home  .container button a{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-5px, 0); }
+    20% { transform: translate(5px, 0); }
+    30% { transform: translate(-5px, 0); }
+    40% { transform: translate(5px, 0); }
+    50% { transform: translate(-5px, 0); }
+    60% { transform: translate(5px, 0); }
+    70% { transform: translate(-5px, 0); }
+    80% { transform: translate(5px, 0); }
+    90% { transform: translate(-5px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+#home  .container button:hover a{
+    color: #416dcc;
+}
+
+
+    
+#home  .container button:hover{
+    background-color: white;
+    color: #416dcc;
+}
+#home  .container button:active{
+    transform: scale(0.98);
+}
+
+@media screen and (max-width:786px) {
+    #home  .container h1{
+        font-size: 35px;
+    }
+    #home  .container p{
+        font-size: 15px;
+    }
+    #home  .container{
+        margin-top: -30px;
+        gap: 30px;
+    }
+}
+/* Register Page */
+
+#register_page{
+    width: 100%;
+    height:95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#register_page .container{
+    width: 100%;
+    max-width: 500px;
+    padding: 60px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(56, 56, 56, 0.685);
+    border: 1px solid rgba(173, 173, 173, 0.116);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#register_page .container h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #416dcc;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+#register_page .container form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#register_page .container form input{
+    width: 390px;
+    padding: 14px 15px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.3s ease;
+}
+#register_page .container form input:focus{
+    border: 2px solid #416dcc;
+}
+#register_page .container form button{
+    padding: 10px 30px;
+    border: 1px solid #416dcc;
+    background-color: #416dcc;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+#register_page .container form button:hover{
+    background-color: white;
+    color: #416dcc;
+}
+#register_page .container form button:active{
+    transform: scale(0.98);
+}
+#register_page .container form p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+@media screen and (max-width:786px) {
+    #register_page .container{
+        padding: 40px 20px;
+        width: fit-content;
+    }
+    #register_page .container h1{
+        font-size: 30px;
+    }
+    #register_page .container form input{
+        width: 300px;
+    }
+    #register_page .container form button{
+        padding: 10px 20px;
+    }
+
+}
+
+/* congratulation_page */
+#congratulation_page{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#congratulation_page img{
+    height: 70px;
+    width: 70px;
+}
+#congratulation_page h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #416dcc;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#congratulation_page a{
+    padding: 10px 30px;
+    border: 1px solid #416dcc;
+    background-color: #416dcc;
+    color: white;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    text-decoration: none;
+}
+@media screen and (max-width:786px) {
+    #congratulation_page h1{
+        font-size: 27px;
+        flex-direction: column;
+        text-align: center;
+    }
+    #congratulation_page a{
+        padding: 10px 20px;
+    }
+    #congratulation_page img{
+        height: 60px;
+        width: 60px;
+    }
+  
+
+}
+/* zeonia_page */
+#zeonia_page{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+#zeonia_page h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #416dcc;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#zeonia_page p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
