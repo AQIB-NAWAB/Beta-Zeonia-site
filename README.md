@@ -1,4 +1,3 @@
-# MERN-OneMoreStep Project
+# Beta-Zeonia-site
 
-#### It is a complete and fully functional OneMoreStep ecommerce store.It contains all features like login/register, cart, order tracking and payment methods. Moreover features include Admin Dashboard with track or products, orders, users. Filteration and search on the base of category and price.
- 
+#### It is a complete and fully functional Beta-Zeonia-site.It contains all features like login/register forgot password and sending custom mails .
